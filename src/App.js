@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import {HashRouter as Router,Route,Link,NavLink,Switch,Redirect} from 'react-router-dom'
 import Food from './components/first-components/food'
 import Movie from './components/first-components/movie'
-import {Provider} from 'react-redux'
 import store from './store'
+import { Provider } from "react-redux";
 /*import Hotel from './components/first-components/hotel'
 import Play from './components/first-components/play'
 import TakeOut from './components/first-components/takeout'
@@ -39,6 +39,7 @@ import all from './components/first-components/All'
 class App extends Component {
   render() {
     return (
+    	<Provider store={store}>
       <Router>
       <div>
       <Switch>
@@ -48,7 +49,7 @@ class App extends Component {
         <Route path="/movie" component={Movie} />
         {/*
            	
-           <Route path="/hotel" component={Hotel} />
+        <Route path="/hotel" component={Hotel} />
       	<Route path="/play" component={Play} />
       	<Route path="/takeout" component={TakeOut} />
       	<Route path="/hotpot" component={HotPot} />
@@ -85,6 +86,7 @@ class App extends Component {
       	</Switch>
       	</div>
       </Router>
+      </Provider>
     );
   }
 }

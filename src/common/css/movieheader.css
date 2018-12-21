@@ -1,0 +1,284 @@
+
+
+#movie-footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	height: .96rem;
+	border-top: 1px solid #d8d8d8;
+}
+#movie-footer ul{
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	
+}
+#movie-footer ul li{
+	flex: 1;
+	text-align: center;
+}
+#movie-footer ul li i{
+	padding-top: .06rem;
+	display: block;
+	font-size: 40px;
+	margin: auto;
+}
+#movie-footer ul li span{
+	display: block;
+	font-size: 26px;
+	padding-top: .1rem;
+}
+#movieheader{
+	width: 100%;
+	height:1.1rem;
+	background: #f63;
+	border-bottom: 1px solid #f63;
+	text-align: center;
+	line-height:1.1rem ;
+}
+#movieheader p{
+	font-size: 34px;
+	color:#fff;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#nav{
+	display: flex;
+	width: 100%;
+	height: .88rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.white_bg{
+	width: 100%;
+	height: .88rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	background: #fff;
+}
+.white_bg .city-entry{
+	padding-left: .15rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+}
+.white_bg .city-entry .city-name{
+	font-size:30px;
+}
+.white_bg .switch-hot{
+	display: flex;
+	font-size: 30px;
+	align-items: center;
+	height: .88rem;
+	position: relative;
+	line-height: .88rem;
+}
+.white_bg .switch-hot .hot-item{
+	height: 100%;
+	margin: 0 .24rem;
+	font-weight: 700;
+	text-align: center;
+	
+}
+.white_bg .switch-hot .hot-item .active{
+	
+	color: red;
+	display: block;
+	height: 100%;
+	border-bottom: 1px solid red;
+}
+.white_bg .searchall{
+	height: .88rem;
+	line-height: .88rem;
+	padding-right: .2rem;
+}
+.white_bg .searchall .searchit{
+	display: block;
+	font-size: 40px;
+}
+.moviemain{
+	width: 100%;
+}	
+.nav_item{
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	height: 2.28rem;
+	padding-left: .15rem;
+	position: relative;
+	
+}
+.nav_item .avatar{
+	margin-top: .12rem;
+}
+.nav_item .avatar img{
+	height: 1.8rem;
+	width: 1.28rem;
+}
+.nav_item .content{
+	margin-top: .12rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding-left: .15rem;
+	width: 4.04rem;
+}
+.nav_item .content .box-flex{
+	display: flex;
+}
+.nav_item .content .box-flex p{
+	color: #333;
+	font-weight: 700;
+	padding-right: .05rem;
+	font-size: 30px;
+}
+.nav_item .content .box-flex .it{
+	display: flex;
+}
+.nav_item .content .box-flex .it .oneit{
+	font-style: normal;
+	display: block;
+	background: #61DAFB;
+	text-align: center;
+	height: .43rem;
+	width: .5rem;
+	line-height: .43rem;
+	
+}
+.nav_item .content .box-flex .it .twoit{
+	text-align: center;
+	height: .43rem;
+	width: .76rem;
+	line-height: .42rem;
+	background: #fff;
+	border: 1px solid #61DAFB;
+	color: #666666;
+}
+.nav_item .content .detail{
+	color: #faaf00;
+	font-weight: 500;
+	padding-top: .1rem;
+	font-size: 25px;
+}
+.nav_item .content .actor{
+	color: #666;
+	padding-top: .16rem;
+}
+.nav_item .content .show-info{
+	color: #666;
+	padding-top: .16rem;
+}
+.nav_item .button{
+	position: absolute;
+	right: .14rem;
+	top: .9rem;
+	width: .8rem;
+	height: .6rem;
+	line-height: .6rem;
+	margin-right: .2rem;
+}
+.nav_item .button .sold{
+	display: block;
+	background: #f03d37;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border-radius: .2rem;
+	
+}
+.nav_item .button .will{
+	display: block;
+	background: #999999;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	border-radius: .2rem;
+}
+.bannerall{
+	box-sizing: border-box;
+	padding: 12px 0 12px 15px;
+	width: 100%;
+	height: 3.8rem;
+	margin-bottom: 10px;
+	font-family: "arial rounded mt bold";
+}
+.bannerall>p{
+	width: 100%;
+	height: .38rem;
+	margin-bottom: 12px;
+	color: #333;
+	font-size: 30px;
+	font-weight: 900;
+}
+.bannerall .banner{
+	width: 1.7rem;
+	height: 100%;
+	margin-right: 10px;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    position: relative;
+	
+}
+.bannerall .banner img{
+	height: 2.3rem;
+	width: 1.7rem;
+	
+}
+.bannerall .banner .banner-wish{
+	position: absolute;
+	left: 0px;
+	top: 190px;
+	z-index: 10;
+	color: greenyellow;
+	width: 100%;
+	font-weight: 900;
+	font-size: 26px;
+	padding-left: 14px;
+	
+}
+.bannerall .banner .banner-nm{
+	color: #222;
+	margin: 0 0 3px;
+	font-weight: 900;
+}
+.bannerall .banner .banner-title{	
+}
+
+#root{
+	height: 100%;
+}
+#root>div{
+	height: 100%;
+}
+#root>div>div{
+	height: 100%;
+}
+#root>div>div>div{
+	height: 100%;
+}
+.wrapper{
+	height: 100%;
+	margin-top: 0;
+	position: relative;
+	top: 0;
+	bottom: 1.98rem;
+	
+}
+
+.headermovie{
+	position: relative;
+	z-index: 10000;
+	height: 1.98rem;
+}
+
+.bl{
+	height: 3rem;
+	width: 100%;
+	clear: both;
+}
